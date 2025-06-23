@@ -62,7 +62,7 @@ const HeroLeft = (props: IProps) => {
           btnIcons={<MdFileDownload />}
           onClick={() =>
             handleDownloadCV(
-              'https://drive.google.com/file/d/1rolLmSgojcl1cIc_DaBg39iMLDLXIsI7/view?usp=sharing'
+              'https://drive.google.com/file/d/1LzKkaSqYSxYFwSRl276VCo_yGSOIwkwD/view?usp=sharing'
             )
           }
         />
