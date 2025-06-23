@@ -3,6 +3,7 @@
 import Besnik from 'assets/project/Besnik.png'
 import Lesson from 'assets/project/Lesson.png'
 import AdminDashboard from 'assets/project/AdminDashboard.png'
+import Socially from 'assets/project/Socially.png'
 
 export const APP_DATA = {
   LINKEDIN_URL:
@@ -68,9 +69,18 @@ export const PROJECTS = [
     imgPath: AdminDashboard,
     title: 'Admin Dashboard',
     description:
-      'Enhanced data visualization and management efficiency by using Reacjs. ',
-    githubLink: ' https://github.com/VkangCoder/admin-dashboard',
-    demoLink: '  https://vkangcoder.github.io/admin-dashboard/',
+      'Enhanced data visualization and management efficiency by using Reacjs.',
+    githubLink: 'https://github.com/VkangCoder/admin-dashboard',
+    demoLink: 'https://vkangcoder.github.io/admin-dashboard/',
+  },
+  {
+    id: 4,
+    imgPath: Socially,
+    title: 'Socially',
+    description:
+      'Built a full-stack website using Next.js, with Clerk for user authentication and GPT-assisted database setup.',
+    githubLink: 'https://github.com/VkangCoder/socially',
+    demoLink: 'https://socially-w3rf.vercel.app/',
   },
 ]
 
